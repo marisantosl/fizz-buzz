@@ -1,4 +1,4 @@
-let limit = 21;
+let limit = 1000;
 let counter = 1;
 
 while (counter < limit) {
@@ -13,6 +13,9 @@ while (counter < limit) {
     else if (counter % 5 === 0) 
         {
         console.log("Buzz"); 
+    }
+    else {
+        console.log(counter);
     }
         counter++;
 
